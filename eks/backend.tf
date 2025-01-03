@@ -6,14 +6,14 @@ terraform {
       version = "~> 5.49.0"
     }
   }
-  backend "s3" {
+  /* backend "s3" {
     bucket         = "my-eks-basket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "my-dynamodb-table"
     encrypt        = true
   }
-}
+} */
 
 provider "aws" {
   region  = var.aws-region
