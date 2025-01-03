@@ -6,6 +6,7 @@ terraform {
       version = "~> 5.49.0"
     }
   }
+ }
   /* backend "s3" {
     bucket         = "my-eks-basket"
     region         = "us-east-1"
