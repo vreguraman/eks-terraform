@@ -15,6 +15,6 @@ terraform {
   }
 } */
 
-provider "aws" {
+/* provider "aws" {
   region  = var.aws-region
-}
+}*/
