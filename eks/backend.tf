@@ -6,7 +6,7 @@ terraform {
       version = "~> 5.49.0"
     }
   }
-  backend "s3" {
+  //backend "s3" {
     bucket         = "my-eks-bucket-0902"
     region         = "eu-north-1"
     key            = "eks/terraform.tfstate"
@@ -14,6 +14,7 @@ terraform {
     encrypt        = true
   }
 }
+//
 
 provider "aws" {
   region  = var.aws-region
