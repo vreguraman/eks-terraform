@@ -10,7 +10,7 @@ terraform {
     bucket         = "my-eks-basket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "your-dynamodb-table"
+    dynamodb_table = "my-dynamodb-table"
     encrypt        = true
   }
 }
